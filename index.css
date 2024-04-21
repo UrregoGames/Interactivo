@@ -1,0 +1,60 @@
+.section1{
+    background-image:url('assets/Slide 1/fondo.png'); 
+    background-size: cover; /* La imagen de fondo cubre toda la sección */
+    background-position: center; /* La imagen de fondo está centrada */
+}
+.section1 .fondoIzq{
+    background-image:url('assets/Slide 1/gráfico copa y elementos.png'); 
+    background-size: cover; /* La imagen de fondo cubre toda la sección */
+    background-position: center; /* La imagen de fondo está centrada */
+}
+.section {
+    height: 100vh; /* 100% del viewport height */
+  }
+
+
+
+/* sección 2 */
+.section2 {
+    background-image: url('/assets/Slide 2/fondo.png');
+    background-size: cover; /* La imagen de fondo cubre toda la sección */
+    background-position: center; /* La imagen de fondo está centrada */
+}
+
+.section2 .button-left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('/assets/Slide 2/botones.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+.section2 .button-right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('/assets/Slide 2/botones.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+.section2 .radio-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+
+.section1 .logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('/assets/Slide 1/sello educoms.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+}
