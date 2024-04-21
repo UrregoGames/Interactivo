@@ -268,6 +268,12 @@
     text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
 }
 
+/* Agrega esta regla para el contenedor naranja */
+.section2 .orange-container-left:hover,
+.section2 .orange-container-right:hover {
+    filter: brightness(110%); /* Reduce la luminosidad al 80% */
+}
+
 .section2 .text-top-right {
     position: absolute;
     top: 27vh;
@@ -354,6 +360,12 @@
     text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
 }
 
+/* Agrega esta regla para el contenedor naranja */
+.section5 .orange-container-left:hover,
+.section5 .orange-container-right:hover {
+    filter: brightness(150%); /* Reduce la luminosidad al 80% */
+}
+
 .section5 .text-top-right {
     position: absolute;
     top: 27vh;
@@ -438,6 +450,12 @@
     white-space: nowrap; /* Evitar salto de línea */
     overflow: hidden; /* Ocultar el texto que desborde */
     text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
+}
+
+/* Agrega esta regla para el contenedor naranja */
+.section8 .orange-container-left:hover,
+.section8 .orange-container-right:hover {
+    filter: brightness(150%); /* Reduce la luminosidad al 80% */
 }
 
 .section8 .text-top-right {
