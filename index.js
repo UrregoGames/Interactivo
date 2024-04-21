@@ -70,3 +70,24 @@ document.getElementById('orange-container-right-8').addEventListener('click', fu
         behavior: 'smooth'
     });
 });
+
+// //cambio color hover
+// document.addEventListener('DOMContentLoaded', function() {
+//     let orangeContainerLeft = document.getElementById('orange-container-left-8');
+//     let orangeContainerRight = document.getElementById('orange-container-right-8');
+
+//     // Función para cambiar el color del contenedor naranja al pasar el mouse
+//     function changeColorOnHover(container) {
+//         container.addEventListener('mouseenter', function() {
+//             container.style.backgroundColor = 'rgb(255, 150, 0)'; // Cambia el color al pasar el mouse sobre el contenedor
+//         });
+
+//         container.addEventListener('mouseleave', function() {
+//             container.style.backgroundColor = 'rgb(143, 47, 45)'; // Restaura el color original al sacar el mouse del contenedor
+//         });
+//     }
+
+//     // Aplicar el evento a los contenedores naranjas
+//     changeColorOnHover(orangeContainerLeft);
+//     changeColorOnHover(orangeContainerRight);
+// });
