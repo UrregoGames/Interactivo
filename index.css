@@ -276,6 +276,56 @@
     height: auto; /* Autoajuste de la altura */
 }
 
+/* sección 3 */
+.section3 {
+    position: relative;
+    background-image: url('assets/Slide 3/selección completa.png');
+    background-size: cover; /* La imagen de fondo cubre toda la sección */
+    background-position: center; /* La imagen de fondo está centrada */
+}
+
+.section3 .text-top-left {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+    color: white; /* Color del texto */
+    font-size: 5rem; /* Tamaño del texto */
+}
+
+.section3 .text-top-left .bold {
+    font-size: 7rem; /* Tamaño del texto */
+}
+
+.section3 .square-button {
+    display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
+    position: relative; /* Para permitir el posicionamiento de los elementos internos */
+    width: 200px; /* Ancho del botón */
+    height: 200px; /* Altura del botón */
+    border: 2px solid black; /* Borde sólido negro */
+    overflow: hidden; /* Para ocultar cualquier contenido que desborde */
+}
+
+.section3 .button-image {
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: 70%; /* Altura del 70% para la imagen */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+}
+
+.section3 .button-text {
+    position: absolute; /* Posición absoluta para superponer el texto */
+    bottom: 0; /* Alinear el texto en la parte inferior */
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: 30%; /* Altura del 30% para el texto */
+    background-color: orange; /* Fondo naranja */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+}
+
 /* sección 5 */
 .section5 {
     position: relative;
