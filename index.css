@@ -1,4 +1,45 @@
+/*fuentes */
+@font-face {
+    font-family: 'Glaciar';
+    src: url('fuentes/GlacialIndifference.otf') format('opentype');
+    /* Agrega otras propiedades de fuente según sea necesario */
+  }
 
+  @font-face {
+    font-family: 'HighCriose';
+    src: url('fuentes/HighCruiser.otf') format('opentype');
+    /* Agrega otras propiedades de fuente según sea necesario */
+  }
+
+  @font-face {
+    font-family: 'PeaceSans';
+    src: url('fuentes/PeaceSans.ttf') ;
+    /* Agrega otras propiedades de fuente según sea necesario */
+  }
+  @font-face {
+    font-family: 'Thepir';
+    src: url('fuentes/Thephir.ttf') ;
+    /* Agrega otras propiedades de fuente según sea necesario */
+  }
+
+.glaciar {
+    font-family: 'Glaciar', sans-serif;
+  }
+
+.highCriose {
+    font-family: 'HighCriose', sans-serif;
+  }
+
+.peaceSans {
+    font-family: 'PeaceSans', sans-serif;
+  }
+
+  .thepir {
+    font-family: 'Thepir', sans-serif;
+  }
+
+
+/* Estilos generales */
 .section {
     height: 100vh; /* 100% del viewport height */
   }
@@ -12,21 +53,31 @@
     background-position: center; /* La imagen de fondo está centrada */
 }
 .section1 .fondoDer{
-    background-image:url('assets/Slide 1/gráfico copa y elementos.png'); 
+    background-image:url('assets/Slide 1/adorno 2.png'); 
+    background-size: cover; /* La imagen de fondo cubre toda la sección */
+    background-position: center; /* La imagen de fondo está centrada */
+}
+
+.section1 .fondoIzq{
+    background-image:url('assets/Slide 1/adorno 1.png'); 
     background-size: cover; /* La imagen de fondo cubre toda la sección */
     background-position: center; /* La imagen de fondo está centrada */
 }
 
 
 
-.section1 .logo {
+.section1 .sello {
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url('/assets/Slide 1/sello educoms.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 20px; /* Ajusta el padding según sea necesario */
+    width: 40vh;
+    height: auto;
+}
+.imagenCopa{
+    width: 75vh;
+    height: auto;
+
+    margin-left: 10vh;
 }
 
 
