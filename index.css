@@ -1,299 +1,277 @@
 /*fuentes */
 @font-face {
-    font-family: 'Glaciar';
-    src: url('fuentes/GlacialIndifference.otf') format('opentype');
-    /* Agrega otras propiedades de fuente según sea necesario */
-  }
+  font-family: "Glaciar";
+  src: url("fuentes/GlacialIndifference.otf") format("opentype");
+  /* Agrega otras propiedades de fuente según sea necesario */
+}
 
-  @font-face {
-    font-family: 'HighCriose';
-    src: url('fuentes/HighCruiser.otf') format('opentype');
-    /* Agrega otras propiedades de fuente según sea necesario */
-  }
+@font-face {
+  font-family: "HighCriose";
+  src: url("fuentes/HighCruiser.otf") format("opentype");
+  /* Agrega otras propiedades de fuente según sea necesario */
+}
 
-  @font-face {
-    font-family: 'PeaceSans';
-    src: url('fuentes/PeaceSans.ttf') ;
-    /* Agrega otras propiedades de fuente según sea necesario */
-  }
-  @font-face {
-    font-family: 'Thepir';
-    src: url('fuentes/Thephir.ttf') ;
-    /* Agrega otras propiedades de fuente según sea necesario */
-  }
+@font-face {
+  font-family: "PeaceSans";
+  src: url("fuentes/PeaceSans.ttf");
+  /* Agrega otras propiedades de fuente según sea necesario */
+}
+@font-face {
+  font-family: "Thepir";
+  src: url("fuentes/Thephir.ttf");
+  /* Agrega otras propiedades de fuente según sea necesario */
+}
 
 .glaciar {
-    font-family: 'Glaciar', sans-serif;
-  }
+  font-family: "Glaciar", sans-serif;
+}
 
 .highCriose {
-    font-family: 'HighCriose', sans-serif;
-  }
+  font-family: "HighCriose", sans-serif;
+}
 
 .peaceSans {
-    font-family: 'PeaceSans', sans-serif;
-  }
+  font-family: "PeaceSans", sans-serif;
+}
 
-  .thepir {
-    font-family: 'Thepir', sans-serif;
-  }
-
+.thepir {
+  font-family: "Thepir", sans-serif;
+}
 
 /* Estilos generales */
 .section {
-    height: 100vh; /* 100% del viewport height */
-  }
+  height: 100vh; /* 100% del viewport height */
+}
+.icono-casa {
+  position: fixed;
+  top: 2em; /* Ajusta la distancia superior según sea necesario */
+  right: 2em; /* Ajusta la distancia derecha según sea necesario */
+  z-index: 9999; /* Asegura que esté por encima de otros elementos */
+}
 
+.icono-casa img {
+  width: 5em; /* Ajusta el ancho del icono según sea necesario */
+  height: 5em; /* Ajusta la altura del icono según sea necesario */
+  filter: invert(100%);
+}
 
 /* Section 1*/
 
-.section1{
-    background-image:url('assets/Slide 1/fondo.png'); 
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
+.section1 {
+  background-image: url("assets/Slide 1/fondo.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
 }
-.section1 .fondoDer{
-    background-image:url('assets/Slide 1/adorno 2.png'); 
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
-}
-
-.section1 .fondoIzq{
-    background-image:url('assets/Slide 1/adorno 1.png'); 
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
+.section1 .fondoDer {
+  background-image: url("assets/Slide 1/adorno 2.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
 }
 
-
+.section1 .fondoIzq {
+  background-image: url("assets/Slide 1/adorno 1.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
+}
 
 .section1 .sello {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 40vh;
-    height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40vh;
+  height: auto;
 }
-.section1 .imagenCopa{
-    width: 75vh;
-    height: auto;
+.section1 .imagenCopa {
+  width: 75vh;
+  height: auto;
 
-    margin-left: 10vh;
-}
-
-.section1 .titulo{
-    font-size: 11vh;
-    color: white;
-    margin: 0;
+  margin-left: 10vh;
 }
 
-.section1 .descripcion{
-    font-size: 3vh;
-    color: white;
-    margin: 0;
-    
-    
+.section1 .titulo {
+  font-size: 11vh;
+  color: white;
+  margin: 0;
+}
+
+.section1 .descripcion {
+  font-size: 3vh;
+  color: white;
+  margin: 0;
 }
 .section1 .titulo:first-child {
-    margin-bottom: -0.4em; /* Ajusta este valor según sea necesario */
-  }
+  margin-bottom: -0.4em; /* Ajusta este valor según sea necesario */
+}
 
-  .section1 .boton-circulo {
-  
-   
-    border: none;
-    height: 3em;
-    cursor: pointer;
+.section1 .footer {
+  color: white; /* Color del texto */
+  font-size: 2rem; /* Tamaño del texto */
+  text-align: left; /* Alinear el texto al centro */
+  display: block; /* Hacer que el texto sea un bloque */
+  border-top: 0.1rem solid white; /* Margen superior */
+  padding-top: 1rem; /* Añadir espacio superior */
+  margin-top: 4rem;
+}
+.section1 .textoFooter {
+  font-size: 0.7em;
+  color: white;
+  margin: 0;
+}
+.section1 {
+  a {
+    text-decoration: none;
     text-align: left;
-    background-color: transparent;
-    line-height: 3em; /* Centra verticalmente el texto */
-   
   }
-  
-  
-  /* Estilos para los círculos */
-  .section1  .boton-circulo::before {
+  a:hover {
+    text-decoration: none;
+  }
+  .cta {
+    position: relative;
+    margin: auto;
+    padding-top: 0.5em;
+    margin-left: 1.5em;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .cta:before {
     content: "";
-    position: absolute;
-    left: 0; 
-    width: 3em; /* Diámetro del círculo */
-    height: 3em; /* Diámetro del círculo */
-    border-radius: 50%; /* Hace que sea un círculo */
-    background-color: red; /* Color del círculo */
-    
-  }
-
-  /* Estilos para el texto */
-  .section1  .boton-circulo span {
-    position: relative;
-    z-index: 1; /* Asegura que el texto esté delante del círculo */
-    color: white; /* Color del texto */
-  }
-
-  .section1  .footer span {
-    color: white; /* Color del texto */
-    font-size: 2rem; /* Tamaño del texto */
-    text-align: center; /* Alinear el texto al centro */
-    display: block; /* Hacer que el texto sea un bloque */
-    margin-top: 1rem solid white;  /* Margen superior */
-    
-  }
-.section1{
-    .cta {
-        position: relative;
-        margin: auto;
-        padding: 12px 18px;
-        transition: all 0.2s ease;
-        border: none;
-        background: none;
-        cursor: pointer;
-      }
-      
-      .cta:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        border-radius: 50px;
-        background: #b1dae7;
-        width: 45px;
-        height: 45px;
-        transition: all 0.3s ease;
-      }
-      
-      .cta span {
-        position: relative;
-        font-family: "Ubuntu", sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        letter-spacing: 0.05em;
-        color: #234567;
-      }
-      
-      .cta svg {
-        position: relative;
-        top: 0;
-        margin-left: 10px;
-        fill: none;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke: #234567;
-        stroke-width: 2;
-        transform: translateX(-5px);
-        transition: all 0.3s ease;
-      }
-      
-      .cta:hover:before {
-        width: 100%;
-        background: #b1dae7;
-      }
-      
-      .cta:hover svg {
-        transform: translateX(0);
-      }
-      
-      .cta:active {
-        transform: scale(0.95);
-      }
-      
-}
-  
-
-
-/* sección 2 */
-.section2 {
-    position: relative;
-    background-image: url('assets/Slide 2/fondo.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
-}
-
-.section2 .orange-container-left {
-    background-color: orange;
-    padding: 10px;
-    width: 50vw; /* Ajusta el ancho según sea necesario */
-    height: 40vh; /* Ajusta la altura según sea necesario */
-    border-top-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
-    border-bottom-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    transition: background-color 1s ease; /* Transición suave del color de fondo */
-    display: flex; /* Utilizar display flex para alinear contenido */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    overflow: hidden; 
-}
-
-.section2 .orange-container-right {
-    background-color: orange;
-    padding: 10px;
-    width: 50vw; /* Ajusta el ancho según sea necesario */
-    height: 40vh; /* Ajusta la altura según sea necesario */
-    border-top-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
-    border-bottom-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    transition: background-color 1s ease; /* Transición suave del color de fondo */
-    display: flex; /* Utilizar display flex para alinear contenido */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    overflow: hidden; 
-}
-
-.section2 .button-left-top {
     position: absolute;
     top: 0;
     left: 0;
+    display: block;
+    border-radius: 50%;
+    background: #ff755a;
+    width: 4.5em; /* Utilizar unidades vw para el tamaño */
+    height: 4.5em; /* Utilizar unidades vw para el tamaño */
+    transition: all 0.3s ease;
+  }
+
+  .cta span {
+    position: relative;
+    text-align: left;
+    font-size: 0.9em; /* Utilizar unidades vw para el tamaño */
+    margin-left: 0.3em;
+
+    color: #fff;
+  }
+
+  .cta:active {
+    transform: scale(0.95);
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 1em;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #ffffff;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
 }
 
+/* sección 2 */
+.section2 {
+  position: relative;
+  background-image: url("assets/Slide 2/fondo.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
+}
+
+.section2 .orange-container-left {
+  background-color: orange;
+  padding: 10px;
+  width: 50vw; /* Ajusta el ancho según sea necesario */
+  height: 40vh; /* Ajusta la altura según sea necesario */
+  border-top-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
+  border-bottom-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  display: flex; /* Utilizar display flex para alinear contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden;
+}
+
+.section2 .orange-container-right {
+  background-color: orange;
+  padding: 10px;
+  width: 50vw; /* Ajusta el ancho según sea necesario */
+  height: 40vh; /* Ajusta la altura según sea necesario */
+  border-top-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
+  border-bottom-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  display: flex; /* Utilizar display flex para alinear contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden;
+}
+
+.section2 .button-left-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .section2 .button-right-bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .section2 .radio-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px; /* Ajusta el padding según sea necesario */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px; /* Ajusta el padding según sea necesario */
 }
 
 .section2 .button-left-top .button,
 .section2 .button-right-bottom .button {
-    color: white; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    font-size: 5rem; /* Tamaño del texto inicial */
-    white-space: nowrap; /* Evitar salto de línea */
-    overflow: hidden; /* Ocultar el texto que desborde */
-    text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado del enlace */
+  font-size: 5rem; /* Tamaño del texto inicial */
+  white-space: nowrap; /* Evitar salto de línea */
+  overflow: hidden; /* Ocultar el texto que desborde */
+  text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
 }
 
 /* Agrega esta regla para el contenedor naranja */
 .section2 .orange-container-left:hover,
 .section2 .orange-container-right:hover {
-    filter: brightness(110%); /* Reduce la luminosidad al 80% */
+  filter: brightness(110%); /* Reduce la luminosidad al 80% */
 }
 
 .section2 .text-top-right {
-    position: absolute;
-    top: 27vh;
-    right: 20vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
-    color: white; /* Color del texto */
-    font-size: 5rem; /* Tamaño del texto */
+  position: absolute;
+  top: 27vh;
+  right: 20vw;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  color: white; /* Color del texto */
+  font-size: 5rem; /* Tamaño del texto */
 }
 
 .section2 .text-top-right .bold {
-    font-size: 7rem; /* Tamaño del texto */
+  font-size: 7rem; /* Tamaño del texto */
 }
 
 .section2 .small-radio {
-    width: 25vw; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Autoajuste de la altura */
+  width: 25vw; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Autoajuste de la altura */
 }
 
 /* sección 3 */
 .section3 {
+
     display: flex;
     padding-left: 5vw;
     flex-direction: column;
@@ -302,21 +280,25 @@
     background-size: cover; /* La imagen de fondo cubre toda la sección */
     background-position: center; /* La imagen de fondo está centrada */
     align-items: flex-start; /* Alinea los elementos a la izquierda */
+
 }
 .section3 .text-top-left {
+
     position: absolute;
     top: 7vh;
     left: 5vw;
     padding: 20px; /* Ajusta el padding según sea necesario */
     color: white; /* Color del texto */
     font-size: 5em; /* Tamaño del texto */
+
 }
 
 .section3 .text-top-left .bold {
-    font-size: 7rem; /* Tamaño del texto */
+  font-size: 7rem; /* Tamaño del texto */
 }
 
 .section3 .square-button {
+
     display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 15vw; /* Ancho del botón */
@@ -349,6 +331,7 @@
     padding: 10px; /* Ajusta el relleno según sea necesario */
     flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+
 }
 
 .section3 .button-text .bold {
@@ -370,184 +353,182 @@
 
 /* sección 5 */
 .section5 {
-    position: relative;
-    background-image: url('assets/Slide 5/fondo.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
+  position: relative;
+  background-image: url("assets/Slide 5/fondo.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
 }
 
 .section5 .orange-container-left {
-    background-color: rgb(236,125,89);
-    padding: 10px;
-    width: 50vw; /* Ajusta el ancho según sea necesario */
-    height: 40vh; /* Ajusta la altura según sea necesario */
-    border-top-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
-    border-bottom-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    transition: background-color 1s ease; /* Transición suave del color de fondo */
-    display: flex; /* Utilizar display flex para alinear contenido */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    overflow: hidden; 
+  background-color: rgb(236, 125, 89);
+  padding: 10px;
+  width: 50vw; /* Ajusta el ancho según sea necesario */
+  height: 40vh; /* Ajusta la altura según sea necesario */
+  border-top-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
+  border-bottom-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  display: flex; /* Utilizar display flex para alinear contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden;
 }
 
-.section5 .orange-container-right  {
-    background-color: rgb(47,51,27);
-    padding: 10px;
-    width: 50vw; /* Ajusta el ancho según sea necesario */
-    height: 40vh; /* Ajusta la altura según sea necesario */
-    border-top-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
-    border-bottom-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    transition: background-color 1s ease; /* Transición suave del color de fondo */
-    display: flex; /* Utilizar display flex para alinear contenido */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    overflow: hidden; 
+.section5 .orange-container-right {
+  background-color: rgb(47, 51, 27);
+  padding: 10px;
+  width: 50vw; /* Ajusta el ancho según sea necesario */
+  height: 40vh; /* Ajusta la altura según sea necesario */
+  border-top-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
+  border-bottom-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  display: flex; /* Utilizar display flex para alinear contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden;
 }
 
 .section5 .button-left-top {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
 .section5 .button-right-bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .section5 .man-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px; /* Ajusta el padding según sea necesario */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px; /* Ajusta el padding según sea necesario */
 }
 
 .section5 .button-left-top .button,
 .section5 .button-right-bottom .button {
-    color: white; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    font-size: 5rem; /* Tamaño del texto inicial */
-    white-space: nowrap; /* Evitar salto de línea */
-    overflow: hidden; /* Ocultar el texto que desborde */
-    text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado del enlace */
+  font-size: 5rem; /* Tamaño del texto inicial */
+  white-space: nowrap; /* Evitar salto de línea */
+  overflow: hidden; /* Ocultar el texto que desborde */
+  text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
 }
 
 /* Agrega esta regla para el contenedor naranja */
 .section5 .orange-container-left:hover,
 .section5 .orange-container-right:hover {
-    filter: brightness(150%); /* Reduce la luminosidad al 80% */
+  filter: brightness(150%); /* Reduce la luminosidad al 80% */
 }
 
 .section5 .text-top-right {
-    position: absolute;
-    top: 27vh;
-    right: 20vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
-    color: white; /* Color del texto */
-    font-size: 5rem; /* Tamaño del texto */
+  position: absolute;
+  top: 27vh;
+  right: 20vw;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  color: white; /* Color del texto */
+  font-size: 5rem; /* Tamaño del texto */
 }
 
 .section5 .text-top-right .bold {
-    font-size: 7rem; /* Tamaño del texto */
+  font-size: 7rem; /* Tamaño del texto */
 }
 
 .section5 .small-man {
-    width: 30vw; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Autoajuste de la altura */
+  width: 30vw; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Autoajuste de la altura */
 }
 
 /* sección 8 */
 .section8 {
-    position: relative;
-    background-image: url('assets/Slide 8/fondo.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
+  position: relative;
+  background-image: url("assets/Slide 8/fondo.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
 }
 
 .section8 .orange-container-left {
-    background-color: rgb(84,116,128);
-    padding: 10px;
-    width: 50vw; /* Ajusta el ancho según sea necesario */
-    height: 40vh; /* Ajusta la altura según sea necesario */
-    border-top-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
-    border-bottom-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    transition: background-color 1s ease; /* Transición suave del color de fondo */
-    display: flex; /* Utilizar display flex para alinear contenido */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    overflow: hidden; 
+  background-color: rgb(84, 116, 128);
+  padding: 10px;
+  width: 50vw; /* Ajusta el ancho según sea necesario */
+  height: 40vh; /* Ajusta la altura según sea necesario */
+  border-top-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
+  border-bottom-right-radius: 15vw; /* Redondear la esquina derecha izquierda */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  display: flex; /* Utilizar display flex para alinear contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden;
 }
 
-.section8 .orange-container-right  {
-    background-color: rgb(143,47,45);
-    padding: 10px;
-    width: 50vw; /* Ajusta el ancho según sea necesario */
-    height: 40vh; /* Ajusta la altura según sea necesario */
-    border-top-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
-    border-bottom-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    transition: background-color 1s ease; /* Transición suave del color de fondo */
-    display: flex; /* Utilizar display flex para alinear contenido */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    overflow: hidden; 
+.section8 .orange-container-right {
+  background-color: rgb(143, 47, 45);
+  padding: 10px;
+  width: 50vw; /* Ajusta el ancho según sea necesario */
+  height: 40vh; /* Ajusta la altura según sea necesario */
+  border-top-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
+  border-bottom-left-radius: 15vw; /* Redondear la esquina izquierda izquierda */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 1s ease; /* Transición suave del color de fondo */
+  display: flex; /* Utilizar display flex para alinear contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden;
 }
 
 .section8 .button-left-top {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
 .section8 .button-right-bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .section8 .man-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px; /* Ajusta el padding según sea necesario */
+  position: absolute;
+  bottom: 0;
+  left: 6em;
+  padding: 20px; /* Ajusta el padding según sea necesario */
 }
 
 .section8 .button-left-top .button,
 .section8 .button-right-bottom .button {
-    color: white; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    font-size: 5rem; /* Tamaño del texto inicial */
-    white-space: nowrap; /* Evitar salto de línea */
-    overflow: hidden; /* Ocultar el texto que desborde */
-    text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado del enlace */
+  font-size: 5rem; /* Tamaño del texto inicial */
+  white-space: nowrap; /* Evitar salto de línea */
+  overflow: hidden; /* Ocultar el texto que desborde */
+  text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
 }
 
 /* Agrega esta regla para el contenedor naranja */
 .section8 .orange-container-left:hover,
 .section8 .orange-container-right:hover {
-    filter: brightness(150%); /* Reduce la luminosidad al 80% */
+  filter: brightness(150%); /* Reduce la luminosidad al 80% */
 }
 
 .section8 .text-top-right {
-    position: absolute;
-    top: 27vh;
-    right: 20vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
-    color: white; /* Color del texto */
-    font-size: 5rem; /* Tamaño del texto */
+  position: absolute;
+  top: 27vh;
+  right: 20vw;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  color: white; /* Color del texto */
+  font-size: 5rem; /* Tamaño del texto */
 }
 
 .section8 .text-top-right .bold {
-    font-size: 7rem; /* Tamaño del texto */
+  font-size: 7rem; /* Tamaño del texto */
 }
 
 .section8 .small-printer {
-    width: 20vw; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Autoajuste de la altura */
+  width: 22vw; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Autoajuste de la altura */
 }
