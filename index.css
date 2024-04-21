@@ -665,7 +665,7 @@ a:hover {
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
     height: 25%; /* Altura del 30% para el texto */
-    background-color: orange; /* Fondo naranja */
+    background-color: rgb(46,52,25); /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
     padding: 10px; /* Ajusta el relleno según sea necesario */
