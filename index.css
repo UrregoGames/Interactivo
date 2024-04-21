@@ -73,12 +73,131 @@
     width: 40vh;
     height: auto;
 }
-.imagenCopa{
+.section1 .imagenCopa{
     width: 75vh;
     height: auto;
 
     margin-left: 10vh;
 }
+
+.section1 .titulo{
+    font-size: 11vh;
+    color: white;
+    margin: 0;
+}
+
+.section1 .descripcion{
+    font-size: 3vh;
+    color: white;
+    margin: 0;
+    
+    
+}
+.section1 .titulo:first-child {
+    margin-bottom: -0.4em; /* Ajusta este valor según sea necesario */
+  }
+
+  .section1 .boton-circulo {
+  
+   
+    border: none;
+    height: 3em;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent;
+    line-height: 3em; /* Centra verticalmente el texto */
+   
+  }
+  
+  
+  /* Estilos para los círculos */
+  .section1  .boton-circulo::before {
+    content: "";
+    position: absolute;
+    left: 0; 
+    width: 3em; /* Diámetro del círculo */
+    height: 3em; /* Diámetro del círculo */
+    border-radius: 50%; /* Hace que sea un círculo */
+    background-color: red; /* Color del círculo */
+    
+  }
+
+  /* Estilos para el texto */
+  .section1  .boton-circulo span {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté delante del círculo */
+    color: white; /* Color del texto */
+  }
+
+  .section1  .footer span {
+    color: white; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    text-align: center; /* Alinear el texto al centro */
+    display: block; /* Hacer que el texto sea un bloque */
+    margin-top: 1rem solid white;  /* Margen superior */
+    
+  }
+.section1{
+    .cta {
+        position: relative;
+        margin: auto;
+        padding: 12px 18px;
+        transition: all 0.2s ease;
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+      
+      .cta:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 50px;
+        background: #b1dae7;
+        width: 45px;
+        height: 45px;
+        transition: all 0.3s ease;
+      }
+      
+      .cta span {
+        position: relative;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #234567;
+      }
+      
+      .cta svg {
+        position: relative;
+        top: 0;
+        margin-left: 10px;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: #234567;
+        stroke-width: 2;
+        transform: translateX(-5px);
+        transition: all 0.3s ease;
+      }
+      
+      .cta:hover:before {
+        width: 100%;
+        background: #b1dae7;
+      }
+      
+      .cta:hover svg {
+        transform: translateX(0);
+      }
+      
+      .cta:active {
+        transform: scale(0.95);
+      }
+      
+}
+  
 
 
 /* sección 2 */
