@@ -271,19 +271,26 @@
 
 /* sección 3 */
 .section3 {
-  position: relative;
-  background-image: url("assets/Slide 3/selección completa.png");
-  background-size: cover; /* La imagen de fondo cubre toda la sección */
-  background-position: center; /* La imagen de fondo está centrada */
-}
 
+    display: flex;
+    padding-left: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('assets/Slide 3/selección completa.png');
+    background-size: cover; /* La imagen de fondo cubre toda la sección */
+    background-position: center; /* La imagen de fondo está centrada */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+
+}
 .section3 .text-top-left {
-  position: absolute;
-  top: 10vh;
-  left: 5vw;
-  padding: 20px; /* Ajusta el padding según sea necesario */
-  color: white; /* Color del texto */
-  font-size: 5rem; /* Tamaño del texto */
+
+    position: absolute;
+    top: 7vh;
+    left: 5vw;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+    color: white; /* Color del texto */
+    font-size: 5em; /* Tamaño del texto */
+
 }
 
 .section3 .text-top-left .bold {
@@ -291,33 +298,58 @@
 }
 
 .section3 .square-button {
-  display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
-  position: relative; /* Para permitir el posicionamiento de los elementos internos */
-  width: 200px; /* Ancho del botón */
-  height: 200px; /* Altura del botón */
-  border: 2px solid black; /* Borde sólido negro */
-  overflow: hidden; /* Para ocultar cualquier contenido que desborde */
+
+    display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
+    position: relative; /* Para permitir el posicionamiento de los elementos internos */
+    width: 15vw; /* Ancho del botón */
+    height: 33vh; /* Altura del botón */
+    border: 2px solid black; /* Borde sólido negro */
+    overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
 .section3 .button-image {
-  width: 100%; /* Ancho al 100% del contenedor */
-  height: 70%; /* Altura del 70% para la imagen */
-  padding: 10px; /* Ajusta el relleno según sea necesario */
-  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+    width: 80%; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
+    display: flex; /* Utiliza flexbox para alinear verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 
 .section3 .button-text {
-  position: absolute; /* Posición absoluta para superponer el texto */
-  bottom: 0; /* Alinear el texto en la parte inferior */
-  width: 100%; /* Ancho al 100% del contenedor */
-  height: 30%; /* Altura del 30% para el texto */
-  background-color: orange; /* Fondo naranja */
-  color: white; /* Texto blanco */
-  text-align: center; /* Centrar el texto horizontalmente */
-  padding: 10px; /* Ajusta el relleno según sea necesario */
-  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+    position: absolute; /* Posición absoluta para superponer el texto */
+    bottom: 0; /* Alinear el texto en la parte inferior */
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: 15%; /* Altura del 30% para el texto */
+    background-color: orange; /* Fondo naranja */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+
 }
+
+.section3 .button-text .bold {
+    font-size: 10vh;
+}
+
+.section3 .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+    gap: 2em; /* Espacio entre los botones */
+}
+
+.section3 .space {
+    height: 25vh; /* Espacio entre los botones */
+}
+
 
 /* sección 5 */
 .section5 {
