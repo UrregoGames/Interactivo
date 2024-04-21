@@ -403,6 +403,7 @@
 
 .section5 .man-image {
   position: absolute;
+  
   bottom: 0;
   left: 0;
   padding: 20px; /* Ajusta el padding según sea necesario */
