@@ -73,12 +73,29 @@
     width: 40vh;
     height: auto;
 }
-.imagenCopa{
+.section1 .imagenCopa{
     width: 75vh;
     height: auto;
 
     margin-left: 10vh;
 }
+
+.section1 .titulo{
+    font-size: 11vh;
+    color: white;
+    margin: 0;
+}
+
+.section1 .descripcion{
+    font-size: 3vh;
+    color: white;
+    margin: 0;
+    
+    
+}
+.section1 .titulo:first-child {
+    margin-bottom: -0.4em; /* Ajusta este valor según sea necesario */
+  }
 
 
 /* sección 2 */
