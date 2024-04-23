@@ -308,7 +308,7 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 15vw; /* Ancho del botón */
     height: 33vh; /* Altura del botón */
-    border: 2px solid black; /* Borde sólido negro */
+    border: 2px solid white; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -389,7 +389,7 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 12vw; /* Ancho del botón */
     height: 25vh; /* Altura del botón */
-    border: 2px solid black; /* Borde sólido negro */
+    border: 2px solid white; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -561,7 +561,7 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 15vw; /* Ancho del botón */
     height: 33vh; /* Altura del botón */
-    border: 2px solid black; /* Borde sólido negro */
+    border: 2px solid white; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -642,7 +642,7 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 12vw; /* Ancho del botón */
     height: 25vh; /* Altura del botón */
-    border: 2px solid black; /* Borde sólido negro */
+    border: 2px solid white; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -788,7 +788,7 @@ a:hover {
   padding-left: 5vw;
   flex-direction: column;
   justify-content: center;
-  background-image: url('assets/Slide 3/selección completa.png');
+  background-image: url('assets/Slide 9/fondo.png');
   background-size: cover; /* La imagen de fondo cubre toda la sección */
   background-position: center; /* La imagen de fondo está centrada */
   align-items: flex-start; /* Alinea los elementos a la izquierda */
@@ -815,7 +815,7 @@ font-size: 7rem; /* Tamaño del texto */
   position: relative; /* Para permitir el posicionamiento de los elementos internos */
   width: 11vw; /* Ancho del botón */
   height: 24vh; /* Altura del botón */
-  border: 2px solid black; /* Borde sólido negro */
+  border: 2px solid white; /* Borde sólido blanco*/
   overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -869,7 +869,7 @@ font-size: 7rem; /* Tamaño del texto */
   padding-left: 5vw;
   flex-direction: column;
   justify-content: center;
-  background-image: url('assets/Slide 3/selección completa.png');
+  background-image: url('assets/Slide 10/fondo.png');
   background-size: cover; /* La imagen de fondo cubre toda la sección */
   background-position: center; /* La imagen de fondo está centrada */
   align-items: flex-start; /* Alinea los elementos a la izquierda */
@@ -896,7 +896,7 @@ font-size: 7rem; /* Tamaño del texto */
   position: relative; /* Para permitir el posicionamiento de los elementos internos */
   width: 11vw; /* Ancho del botón */
   height: 24vh; /* Altura del botón */
-  border: 2px solid black; /* Borde sólido negro */
+  border: 2px solid white; /* Borde sólido blanco*/
   overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
