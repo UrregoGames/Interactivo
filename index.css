@@ -50,8 +50,8 @@
 }
 
 .icono-casa img {
-  width: 5em; /* Ajusta el ancho del icono según sea necesario */
-  height: 5em; /* Ajusta la altura del icono según sea necesario */
+  width: 3em; /* Ajusta el ancho del icono según sea necesario */
+  height: 3em; /* Ajusta la altura del icono según sea necesario */
   filter: invert(100%);
 }
 
@@ -82,20 +82,21 @@
   height: auto;
 }
 .section1 .imagenCopa {
-  width: 75vh;
-  height: auto;
+  width: auto;
+  height: 80vh;
 
   margin-left: 10vh;
 }
 
 .section1 .titulo {
-  font-size: 11vh;
+  font-size: 9vh;
   color: white;
   margin: 0;
+  margin-top: -0.2em;
 }
 
 .section1 .descripcion {
-  font-size: 3vh;
+  font-size: 2.8vh;
   color: white;
   margin: 0;
 }
@@ -149,15 +150,15 @@ a:hover {
     display: block;
     border-radius: 50%;
     background: #ff755a;
-    width: 4.5em; /* Utilizar unidades vw para el tamaño */
-    height: 4.5em; /* Utilizar unidades vw para el tamaño */
+    width: 3em; /* Utilizar unidades vw para el tamaño */
+    height: 3em; /* Utilizar unidades vw para el tamaño */
     transition: all 0.3s ease;
   }
 
   .cta span {
     position: relative;
     text-align: left;
-    font-size: 0.9em; /* Utilizar unidades vw para el tamaño */
+    font-size: 0.7em; /* Utilizar unidades vw para el tamaño */
     margin-left: 0.3em;
 
     color: #fff;
