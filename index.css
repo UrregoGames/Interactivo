@@ -159,8 +159,7 @@ a:hover {
   .cta span {
     position: relative;
     text-align: left;
-    font-size: 0.7em; /* Utilizar unidades vw para el tamaño */
-    margin-left: 0.3em;
+    font-size: 0.7vw; /* Utilizar unidades vw para el tamaño */
 
     color: #fff;
   }
