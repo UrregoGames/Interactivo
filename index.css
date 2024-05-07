@@ -245,7 +245,7 @@ a:hover {
 .section2 .button-right-bottom .button {
   color: white; /* Color del texto */
   text-decoration: none; /* Quitar subrayado del enlace */
-  font-size: 5rem; /* Tamaño del texto inicial */
+  font-size: 3em; /* Tamaño del texto inicial */
   white-space: nowrap; /* Evitar salto de línea */
   overflow: hidden; /* Ocultar el texto que desborde */
   text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
@@ -263,7 +263,7 @@ a:hover {
   right: 20vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 5rem; /* Tamaño del texto */
+  font-size: 3em; /* Tamaño del texto */
 }
 
 .section2 .text-top-right .bold {
@@ -271,9 +271,13 @@ a:hover {
 }
 
 .section2 .small-radio {
+  position: absolute;
   width: 25vw; /* Ajusta el ancho según sea necesario */
   height: auto; /* Autoajuste de la altura */
-}
+  margin-bottom: 4em;
+  margin-left: 5em;
+  bottom: 0;
+  }
 
 /* sección 3 */
 .section3 {
@@ -334,14 +338,12 @@ a:hover {
     background-color: orange; /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
     flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-
 }
 
 .section3 .button-text .bold {
-    font-size: 10vh;
+    font-size: 1em;
 }
 
 .section3 .buttons-container {
@@ -411,17 +413,16 @@ a:hover {
     position: absolute; /* Posición absoluta para superponer el texto */
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
-    height: 25%; /* Altura del 30% para el texto */
+    height: 40%; /* Altura del 30% para el texto */
     background-color: orange; /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
     flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
 }
 
 .section4 .button-text .bold {
-    font-size: 10vh;
+  font-size: 0.1em;
 }
 
 .section4 .buttons-container {
