@@ -312,7 +312,7 @@ a:hover {
     display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 15vw; /* Ancho del botón */
-    height: 33vh; /* Altura del botón */
+    height: 25vh; /* Altura del botón */
     border: 2px solid white; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
@@ -334,7 +334,7 @@ a:hover {
     position: absolute; /* Posición absoluta para superponer el texto */
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
-    height: 15%; /* Altura del 30% para el texto */
+    height: 25%; /* Altura del 30% para el texto */
     background-color: orange; /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
