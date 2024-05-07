@@ -566,15 +566,15 @@ a:hover {
 
     display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
-    width: 15vw; /* Ancho del botón */
-    height: 33vh; /* Altura del botón */
+    width: 12vw; /* Ancho del botón */
+    height: 24vh; /* Altura del botón */
     border: 2px solid white; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
 .section6 .button-image {
-    width: 80%; /* Ancho deseado */
-    height: auto; /* Altura automática para mantener la relación de aspecto */
+    width: auto; /* Ancho deseado */
+    height: 70%; /* Altura automática para mantener la relación de aspecto */
     padding: 10px; /* Ajusta el relleno según sea necesario */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
     object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
@@ -589,14 +589,14 @@ a:hover {
     position: absolute; /* Posición absoluta para superponer el texto */
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
-    height: 15%; /* Altura del 30% para el texto */
+    height: 30%; /* Altura del 30% para el texto */
     background-color: rgb(255,117,90); /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
     padding: 10px; /* Ajusta el relleno según sea necesario */
     flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-
+    font-size: 0.8em ;
 }
 
 .section6 .button-text .bold {
@@ -654,8 +654,8 @@ a:hover {
 }
 
 .section7 .button-image {
-    width: 70%; /* Ancho deseado */
-    height: auto; /* Altura automática para mantener la relación de aspecto */
+    width: auto; /* Ancho deseado */
+    height: 70%; /* Altura automática para mantener la relación de aspecto */
     padding: 10px; /* Ajusta el relleno según sea necesario */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
     object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
@@ -670,13 +670,14 @@ a:hover {
     position: absolute; /* Posición absoluta para superponer el texto */
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
-    height: 25%; /* Altura del 30% para el texto */
+    height: 30%; /* Altura del 30% para el texto */
     background-color: rgb(46,52,25); /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
     padding: 10px; /* Ajusta el relleno según sea necesario */
     flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+    font-size: 0.8em ;
 }
 
 .section7 .button-text .bold {
@@ -894,16 +895,16 @@ font-size: 5rem; /* Tamaño del texto */
   left: 5vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 5em; /* Tamaño del texto */
+  font-size: 3em; /* Tamaño del texto */
 
 }
 
 .section10 .text-top-left .bold {
-font-size: 7rem; /* Tamaño del texto */
+font-size: 5rem; /* Tamaño del texto */
 }
 
 .section10 .square-button {
-
+  margin-top: 2em;
   display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
   position: relative; /* Para permitir el posicionamiento de los elementos internos */
   width: 11vw; /* Ancho del botón */
@@ -913,8 +914,8 @@ font-size: 7rem; /* Tamaño del texto */
 }
 
 .section10 .button-image {
-  width: 80%; /* Ancho deseado */
-  height: 80%; /* Altura automática para mantener la relación de aspecto */
+  width: auto; /* Ancho deseado */
+  height: 70%; /* Altura automática para mantener la relación de aspecto */
   padding: 10px; /* Ajusta el relleno según sea necesario */
   box-sizing: border-box; /* Incluye el relleno en el tamaño total */
   object-fit: fill; /* Ajusta la imagen al tamaño del contenedor */
@@ -929,14 +930,14 @@ font-size: 7rem; /* Tamaño del texto */
   position: absolute; /* Posición absoluta para superponer el texto */
   bottom: 0; /* Alinear el texto en la parte inferior */
   width: 100%; /* Ancho al 100% del contenedor */
-  height: 25%; /* Altura del 30% para el texto */
+  height: 30%; /* Altura del 30% para el texto */
   background-color: #9D2330; /* Fondo naranja */
   color: white; /* Texto blanco */
   text-align: center; /* Centrar el texto horizontalmente */
   padding: 10px; /* Ajusta el relleno según sea necesario */
   flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
   box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-
+  font-size: 0.8em;
 }
 
 .section10 .button-text .bold {
