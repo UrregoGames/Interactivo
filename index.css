@@ -105,7 +105,7 @@
 
 .section1 .footer {
   color: white; /* Color del texto */
-  font-size: 2rem; /* Tamaño del texto */
+  font-size: 1.5rem; /* Tamaño del texto */
   text-align: left; /* Alinear el texto al centro */
   display: block; /* Hacer que el texto sea un bloque */
   border-top: 0.1rem solid white; /* Margen superior */
@@ -134,6 +134,7 @@ a:hover {
   .cta {
     position: relative;
     margin: auto;
+    margin-top: 1em;
     padding-top: 0.5em;
     margin-left: 1.5em;
     transition: all 0.2s ease;
@@ -491,8 +492,9 @@ a:hover {
 .section5 .man-image {
   position: absolute;
   
+  margin-left: 5em;
+  margin-bottom: 4em;
   bottom: 0;
-  left: 0;
   padding: 20px; /* Ajusta el padding según sea necesario */
 }
 
@@ -500,7 +502,7 @@ a:hover {
 .section5 .button-right-bottom .button {
   color: white; /* Color del texto */
   text-decoration: none; /* Quitar subrayado del enlace */
-  font-size: 5rem; /* Tamaño del texto inicial */
+  font-size: 3em; /* Tamaño del texto inicial */
   white-space: nowrap; /* Evitar salto de línea */
   overflow: hidden; /* Ocultar el texto que desborde */
   text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
@@ -514,8 +516,11 @@ a:hover {
 
 .section5 .text-top-right {
   position: absolute;
-  top: 27vh;
-  right: 20vw;
+  right: 0;
+  top: 0;
+  margin-top: 1em;
+  margin-right: 1em;
+  
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
   font-size: 5rem; /* Tamaño del texto */
@@ -741,8 +746,10 @@ a:hover {
 
 .section8 .man-image {
   position: absolute;
+  
+  margin-left: 8em;
+  margin-bottom: 1em;
   bottom: 0;
-  left: 6em;
   padding: 20px; /* Ajusta el padding según sea necesario */
 }
 
@@ -750,7 +757,7 @@ a:hover {
 .section8 .button-right-bottom .button {
   color: white; /* Color del texto */
   text-decoration: none; /* Quitar subrayado del enlace */
-  font-size: 5rem; /* Tamaño del texto inicial */
+  font-size: 3em; /* Tamaño del texto inicial */
   white-space: nowrap; /* Evitar salto de línea */
   overflow: hidden; /* Ocultar el texto que desborde */
   text-overflow: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
@@ -764,15 +771,17 @@ a:hover {
 
 .section8 .text-top-right {
   position: absolute;
-  top: 27vh;
-  right: 8vw;
+  top: 0;
+  right: 0;
+  margin-top: 3em;
+  margin-right: 1.5em;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 4rem; /* Tamaño del texto */
+  font-size: 4em; /* Tamaño del texto */
 }
 
 .section8 .text-top-right .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  font-size: 5rem; /* Tamaño del texto */
 }
 
 .section8 .small-printer {
@@ -802,12 +811,12 @@ a:hover {
   left: 5vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 5em; /* Tamaño del texto */
+  font-size: 4rem; /* Tamaño del texto */
 
 }
 
 .section9 .text-top-left .bold {
-font-size: 7rem; /* Tamaño del texto */
+font-size: 5rem; /* Tamaño del texto */
 }
 
 .section9 .square-button {
@@ -844,11 +853,12 @@ font-size: 7rem; /* Tamaño del texto */
   padding: 10px; /* Ajusta el relleno según sea necesario */
   flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
   box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-
+  font-size: 0.8em;
+  padding: 0.1em;
 }
 
 .section9 .button-text .bold {
-  font-size: 8vh;
+  font-size: 3em;
 }
 
 .section9 .buttons-container {
