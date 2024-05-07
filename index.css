@@ -319,8 +319,8 @@ a:hover {
 }
 
 .section3 .button-image {
-    width: 80%; /* Ancho deseado */
-    height: auto; /* Altura automática para mantener la relación de aspecto */
+    width: auto; /* Ancho deseado */
+    height: 80%; /* Altura automática para mantener la relación de aspecto */
     padding: 10px; /* Ajusta el relleno según sea necesario */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
     object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
@@ -335,7 +335,7 @@ a:hover {
     position: absolute; /* Posición absoluta para superponer el texto */
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
-    height: 25%; /* Altura del 30% para el texto */
+    height: 15%; /* Altura del 30% para el texto */
     background-color: orange; /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
@@ -344,7 +344,7 @@ a:hover {
 }
 
 .section3 .button-text .bold {
-    font-size: 1em;
+    font-size: 0.1em;
 }
 
 .section3 .buttons-container {
@@ -398,8 +398,8 @@ a:hover {
 }
 
 .section4 .button-image {
-    width: 70%; /* Ancho deseado */
-    height: auto; /* Altura automática para mantener la relación de aspecto */
+    width: auto; /* Ancho deseado */
+    height: 70%; /* Altura automática para mantener la relación de aspecto */
     padding: 10px; /* Ajusta el relleno según sea necesario */
     box-sizing: border-box; /* Incluye el relleno en el tamaño total */
     object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
@@ -414,7 +414,7 @@ a:hover {
     position: absolute; /* Posición absoluta para superponer el texto */
     bottom: 0; /* Alinear el texto en la parte inferior */
     width: 100%; /* Ancho al 100% del contenedor */
-    height: 40%; /* Altura del 30% para el texto */
+    height: 30%; /* Altura del 30% para el texto */
     background-color: orange; /* Fondo naranja */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto horizontalmente */
@@ -423,7 +423,7 @@ a:hover {
 }
 
 .section4 .button-text .bold {
-  font-size: 0.1em;
+  font-size: 0.8em;
 }
 
 .section4 .buttons-container {
