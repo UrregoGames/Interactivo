@@ -519,16 +519,15 @@ a:hover {
   position: absolute;
   right: 0;
   top: 0;
-  margin-top: 1em;
-  margin-right: 1em;
-  
+  margin-top: 2em;
+  margin-right: 3em;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 5rem; /* Tamaño del texto */
+  font-size: 4em; /* Tamaño del texto */
 }
 
 .section5 .text-top-right .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  font-size: 5rem; /* Tamaño del texto */
 }
 
 .section5 .small-man {
