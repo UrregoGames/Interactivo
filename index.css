@@ -259,15 +259,17 @@ a:hover {
 
 .section2 .text-top-right {
   position: absolute;
-  top: 27vh;
-  right: 20vw;
-  padding: 20px; /* Ajusta el padding según sea necesario */
+  top: 32vh;
+  right: 10vw;
+   /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 3em; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
+  
 }
 
 .section2 .text-top-right .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section2 .small-radio {
@@ -299,21 +301,22 @@ a:hover {
     left: 5vw;
     padding: 20px; /* Ajusta el padding según sea necesario */
     color: white; /* Color del texto */
-    font-size: 5em; /* Tamaño del texto */
+    font-size: 10vh; /* Tamaño del texto */
 
 }
 
 .section3 .text-top-left .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  font-size: 9vh; /* Tamaño del texto */
 }
 
 .section3 .square-button {
-
+    
     display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 15vw; /* Ancho del botón */
     height: 25vh; /* Altura del botón */
-    border: 2px solid white; /* Borde sólido blanco*/
+    border: 1px solid white; /* Borde sólido blanco*/
+    border-radius: 10%;
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -378,12 +381,12 @@ a:hover {
     left: 5vw;
     padding: 20px; /* Ajusta el padding según sea necesario */
     color: white; /* Color del texto */
-    font-size: 5em; /* Tamaño del texto */
+    font-size: 10vh; /* Tamaño del texto */
 
 }
 
 .section4 .text-top-left .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section4 .square-button {
@@ -392,7 +395,8 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 12vw; /* Ancho del botón */
     height: 25vh; /* Altura del botón */
-    border: 2px solid white; /* Borde sólido blanco*/
+    border: 1px solid white;
+border-radius: 10%; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -516,17 +520,15 @@ a:hover {
 
 .section5 .text-top-right {
   position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 2em;
-  margin-right: 3em;
-  padding: 20px; /* Ajusta el padding según sea necesario */
+  right: 10vw;
+  top: 28vh;
+ 
   color: white; /* Color del texto */
-  font-size: 4em; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section5 .text-top-right .bold {
-  font-size: 5rem; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section5 .small-man {
@@ -550,14 +552,13 @@ a:hover {
     position: absolute;
     top: 7vh;
     left: 5vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
     color: white; /* Color del texto */
-    font-size: 5em; /* Tamaño del texto */
+    font-size: 10vh; /* Tamaño del texto */
 
 }
 
 .section6 .text-top-left .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section6 .square-button {
@@ -566,7 +567,8 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 12vw; /* Ancho del botón */
     height: 24vh; /* Altura del botón */
-    border: 2px solid white; /* Borde sólido blanco*/
+    border: 1px solid white;
+border-radius: 10%; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -633,12 +635,12 @@ a:hover {
     left: 5vw;
     padding: 20px; /* Ajusta el padding según sea necesario */
     color: white; /* Color del texto */
-    font-size: 5em; /* Tamaño del texto */
+    font-size: 10vh; /* Tamaño del texto */
 
 }
 
 .section7 .text-top-left .bold {
-  font-size: 7rem; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section7 .square-button {
@@ -647,7 +649,8 @@ a:hover {
     position: relative; /* Para permitir el posicionamiento de los elementos internos */
     width: 12vw; /* Ancho del botón */
     height: 25vh; /* Altura del botón */
-    border: 2px solid white; /* Borde sólido blanco*/
+    border: 1px solid white;
+border-radius: 10%; /* Borde sólido blanco*/
     overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -771,17 +774,15 @@ a:hover {
 
 .section8 .text-top-right {
   position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 3em;
-  margin-right: 1.5em;
-  padding: 20px; /* Ajusta el padding según sea necesario */
+  top: 25vh;
+  right: 8vw;
+ 
   color: white; /* Color del texto */
-  font-size: 4em; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section8 .text-top-right .bold {
-  font-size: 5rem; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section8 .small-printer {
@@ -811,12 +812,12 @@ a:hover {
   left: 5vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 4rem; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 
 }
 
 .section9 .text-top-left .bold {
-font-size: 5rem; /* Tamaño del texto */
+font-size: 10vh; /* Tamaño del texto */
 }
 
 .section9 .square-button {
@@ -825,7 +826,8 @@ font-size: 5rem; /* Tamaño del texto */
   position: relative; /* Para permitir el posicionamiento de los elementos internos */
   width: 11vw; /* Ancho del botón */
   height: 24vh; /* Altura del botón */
-  border: 2px solid white; /* Borde sólido blanco*/
+  border: 1px solid white;
+border-radius: 10%; /* Borde sólido blanco*/
   overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -850,7 +852,8 @@ font-size: 5rem; /* Tamaño del texto */
   background-color: #497580; /* Fondo naranja */
   color: white; /* Texto blanco */
   text-align: center; /* Centrar el texto horizontalmente */
-  padding: 10px; /* Ajusta el relleno según sea necesario */
+  padding: auto; /* Ajusta el relleno según sea necesario */
+  
   flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
   box-sizing: border-box; /* Incluye el relleno en el tamaño total */
   font-size: 0.8em;
@@ -893,12 +896,12 @@ font-size: 5rem; /* Tamaño del texto */
   left: 5vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
-  font-size: 3em; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 
 }
 
 .section10 .text-top-left .bold {
-font-size: 5rem; /* Tamaño del texto */
+font-size: 10vh; /* Tamaño del texto */
 }
 
 .section10 .square-button {
@@ -907,7 +910,8 @@ font-size: 5rem; /* Tamaño del texto */
   position: relative; /* Para permitir el posicionamiento de los elementos internos */
   width: 11vw; /* Ancho del botón */
   height: 24vh; /* Altura del botón */
-  border: 2px solid white; /* Borde sólido blanco*/
+  border: 1px solid white;
+border-radius: 10%; /* Borde sólido blanco*/
   overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
