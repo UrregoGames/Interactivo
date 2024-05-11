@@ -101,8 +101,6 @@
   margin: 0;
 }
 
- 
-
 .section1 .footer {
   color: white; /* Color del texto */
   font-size: 1.5rem; /* Tamaño del texto */
@@ -119,18 +117,18 @@
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .section1 {
   a {
     text-align: left;
   }
-  
+
   .cta {
     position: relative;
     margin: auto;
@@ -261,14 +259,12 @@ a:hover {
   position: absolute;
   top: 32vh;
   right: 10vw;
-   /* Ajusta el padding según sea necesario */
+  /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
   font-size: 10vh; /* Tamaño del texto */
-  
 }
 
 .section2 .text-top-right .bold {
-  
   font-size: 10vh; /* Tamaño del texto */
 }
 
@@ -279,30 +275,26 @@ a:hover {
   margin-bottom: 4em;
   margin-left: 5em;
   bottom: 0;
-  }
+}
 
 /* sección 3 */
 .section3 {
-
-    display: flex;
-    padding-left: 5vw;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('assets/Slide 3/selección completa.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-
+  display: flex;
+  padding-left: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/Slide 3/selección completa.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
 }
 .section3 .text-top-left {
-
-    position: absolute;
-    top: 7vh;
-    left: 5vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
-    color: white; /* Color del texto */
-    font-size: 10vh; /* Tamaño del texto */
-
+  position: absolute;
+  top: 7vh;
+  left: 5vw;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  color: white; /* Color del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section3 .text-top-left .bold {
@@ -310,79 +302,74 @@ a:hover {
 }
 
 .section3 .square-button {
-    
-    display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
-    position: relative; /* Para permitir el posicionamiento de los elementos internos */
-    width: 15vw; /* Ancho del botón */
-    height: 25vh; /* Altura del botón */
-    border: 1px solid white; /* Borde sólido blanco*/
-    border-radius: 10%;
-    overflow: hidden; /* Para ocultar cualquier contenido que desborde */
+  display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
+  position: relative; /* Para permitir el posicionamiento de los elementos internos */
+  width: 15vw; /* Ancho del botón */
+  height: 25vh; /* Altura del botón */
+  border: 1px solid white; /* Borde sólido blanco*/
+  border-radius: 10%;
+  overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
 .section3 .button-image {
-    width: auto; /* Ancho deseado */
-    height: 80%; /* Altura automática para mantener la relación de aspecto */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
-    display: flex; /* Utiliza flexbox para alinear verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+  width: auto; /* Ancho deseado */
+  height: 80%; /* Altura automática para mantener la relación de aspecto */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
+  display: flex; /* Utiliza flexbox para alinear verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
 }
 
 .section3 .button-text {
-    position: absolute; /* Posición absoluta para superponer el texto */
-    bottom: 0; /* Alinear el texto en la parte inferior */
-    width: 100%; /* Ancho al 100% del contenedor */
-    height: 15%; /* Altura del 30% para el texto */
-    background-color: orange; /* Fondo naranja */
-    color: white; /* Texto blanco */
-    text-align: center; /* Centrar el texto horizontalmente */
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  position: absolute; /* Posición absoluta para superponer el texto */
+  bottom: 0; /* Alinear el texto en la parte inferior */
+  width: 100%; /* Ancho al 100% del contenedor */
+  height: 15%; /* Altura del 30% para el texto */
+  background-color: orange; /* Fondo naranja */
+  color: white; /* Texto blanco */
+  text-align: center; /* Centrar el texto horizontalmente */
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
 }
 
 .section3 .button-text .bold {
-    font-size: 0.1em;
+  font-size: 0.1em;
 }
 
 .section3 .buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    gap: 2em; /* Espacio entre los botones */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  gap: 2em; /* Espacio entre los botones */
 }
 
 .section3 .space {
-    height: 25vh; /* Espacio entre los botones */
+  height: 25vh; /* Espacio entre los botones */
 }
 
 /* sección 4 */
 .section4 {
-
-    display: flex;
-    padding-left: 5vw;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('assets/Slide 3/selección completa.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-
+  display: flex;
+  padding-left: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/Slide 3/selección completa.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
 }
 .section4 .text-top-left {
-
-    position: absolute;
-    top: 7vh;
-    left: 5vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
-    color: white; /* Color del texto */
-    font-size: 10vh; /* Tamaño del texto */
-
+  position: absolute;
+  top: 7vh;
+  left: 5vw;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  color: white; /* Color del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section4 .text-top-left .bold {
@@ -390,39 +377,38 @@ a:hover {
 }
 
 .section4 .square-button {
-
-    display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
-    position: relative; /* Para permitir el posicionamiento de los elementos internos */
-    width: 12vw; /* Ancho del botón */
-    height: 25vh; /* Altura del botón */
-    border: 1px solid white;
-border-radius: 10%; /* Borde sólido blanco*/
-    overflow: hidden; /* Para ocultar cualquier contenido que desborde */
+  display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
+  position: relative; /* Para permitir el posicionamiento de los elementos internos */
+  width: 12vw; /* Ancho del botón */
+  height: 25vh; /* Altura del botón */
+  border: 1px solid white;
+  border-radius: 10%; /* Borde sólido blanco*/
+  overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
 .section4 .button-image {
-    width: auto; /* Ancho deseado */
-    height: 70%; /* Altura automática para mantener la relación de aspecto */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
-    display: flex; /* Utiliza flexbox para alinear verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+  width: auto; /* Ancho deseado */
+  height: 70%; /* Altura automática para mantener la relación de aspecto */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
+  display: flex; /* Utiliza flexbox para alinear verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
 }
 
 .section4 .button-text {
-    position: absolute; /* Posición absoluta para superponer el texto */
-    bottom: 0; /* Alinear el texto en la parte inferior */
-    width: 100%; /* Ancho al 100% del contenedor */
-    height: 30%; /* Altura del 30% para el texto */
-    background-color: orange; /* Fondo naranja */
-    color: white; /* Texto blanco */
-    text-align: center; /* Centrar el texto horizontalmente */
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  position: absolute; /* Posición absoluta para superponer el texto */
+  bottom: 0; /* Alinear el texto en la parte inferior */
+  width: 100%; /* Ancho al 100% del contenedor */
+  height: 30%; /* Altura del 30% para el texto */
+  background-color: orange; /* Fondo naranja */
+  color: white; /* Texto blanco */
+  text-align: center; /* Centrar el texto horizontalmente */
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
 }
 
 .section4 .button-text .bold {
@@ -430,18 +416,16 @@ border-radius: 10%; /* Borde sólido blanco*/
 }
 
 .section4 .buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    gap: 1em; /* Espacio entre los botones */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  gap: 1em; /* Espacio entre los botones */
 }
 
 .section4 .space {
-    height: 25vh; /* Espacio entre los botones */
+  height: 25vh; /* Espacio entre los botones */
 }
-
-
 
 /* sección 5 */
 .section5 {
@@ -495,7 +479,7 @@ border-radius: 10%; /* Borde sólido blanco*/
 
 .section5 .man-image {
   position: absolute;
-  
+
   margin-left: 5em;
   margin-bottom: 4em;
   bottom: 0;
@@ -522,7 +506,7 @@ border-radius: 10%; /* Borde sólido blanco*/
   position: absolute;
   right: 10vw;
   top: 28vh;
- 
+
   color: white; /* Color del texto */
   font-size: 10vh; /* Tamaño del texto */
 }
@@ -538,23 +522,21 @@ border-radius: 10%; /* Borde sólido blanco*/
 
 /* sección 6 */
 .section6 {
-    display: flex;
-    padding-left: 5vw;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('assets/Slide 6/fondo.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
+  display: flex;
+  padding-left: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/Slide 6/fondo.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
 }
 .section6 .text-top-left {
-
-    position: absolute;
-    top: 7vh;
-    left: 5vw;
-    color: white; /* Color del texto */
-    font-size: 10vh; /* Tamaño del texto */
-
+  position: absolute;
+  top: 7vh;
+  left: 5vw;
+  color: white; /* Color del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section6 .text-top-left .bold {
@@ -562,81 +544,76 @@ border-radius: 10%; /* Borde sólido blanco*/
 }
 
 .section6 .square-button {
-
-    display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
-    position: relative; /* Para permitir el posicionamiento de los elementos internos */
-    width: 12vw; /* Ancho del botón */
-    height: 24vh; /* Altura del botón */
-    border: 1px solid white;
-border-radius: 10%; /* Borde sólido blanco*/
-    overflow: hidden; /* Para ocultar cualquier contenido que desborde */
+  display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
+  position: relative; /* Para permitir el posicionamiento de los elementos internos */
+  width: 12vw; /* Ancho del botón */
+  height: 24vh; /* Altura del botón */
+  border: 1px solid white;
+  border-radius: 10%; /* Borde sólido blanco*/
+  overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
 .section6 .button-image {
-    width: auto; /* Ancho deseado */
-    height: 70%; /* Altura automática para mantener la relación de aspecto */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
-    display: flex; /* Utiliza flexbox para alinear verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+  width: auto; /* Ancho deseado */
+  height: 70%; /* Altura automática para mantener la relación de aspecto */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
+  display: flex; /* Utiliza flexbox para alinear verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
 }
 
 .section6 .button-text {
-    position: absolute; /* Posición absoluta para superponer el texto */
-    bottom: 0; /* Alinear el texto en la parte inferior */
-    width: 100%; /* Ancho al 100% del contenedor */
-    height: 30%; /* Altura del 30% para el texto */
-    background-color: rgb(255,117,90); /* Fondo naranja */
-    color: white; /* Texto blanco */
-    text-align: center; /* Centrar el texto horizontalmente */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    font-size: 0.8em ;
+  position: absolute; /* Posición absoluta para superponer el texto */
+  bottom: 0; /* Alinear el texto en la parte inferior */
+  width: 100%; /* Ancho al 100% del contenedor */
+  height: 30%; /* Altura del 30% para el texto */
+  background-color: rgb(255, 117, 90); /* Fondo naranja */
+  color: white; /* Texto blanco */
+  text-align: center; /* Centrar el texto horizontalmente */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  font-size: 0.8em;
 }
 
 .section6 .button-text .bold {
-    font-size: 10vh;
+  font-size: 10vh;
 }
 
 .section6 .buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    gap: 2em; /* Espacio entre los botones */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  gap: 2em; /* Espacio entre los botones */
 }
 
 .section6 .space {
-    height: 25vh; /* Espacio entre los botones */
+  height: 25vh; /* Espacio entre los botones */
 }
 
 /* sección 7 */
 .section7 {
-
-    display: flex;
-    padding-left: 5vw;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('assets/Slide 7/fondo.png');
-    background-size: cover; /* La imagen de fondo cubre toda la sección */
-    background-position: center; /* La imagen de fondo está centrada */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-
+  display: flex;
+  padding-left: 5vw;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("assets/Slide 7/fondo.png");
+  background-size: cover; /* La imagen de fondo cubre toda la sección */
+  background-position: center; /* La imagen de fondo está centrada */
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
 }
 .section7 .text-top-left {
-
-    position: absolute;
-    top: 7vh;
-    left: 5vw;
-    padding: 20px; /* Ajusta el padding según sea necesario */
-    color: white; /* Color del texto */
-    font-size: 10vh; /* Tamaño del texto */
-
+  position: absolute;
+  top: 7vh;
+  left: 5vw;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  color: white; /* Color del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section7 .text-top-left .bold {
@@ -644,57 +621,56 @@ border-radius: 10%; /* Borde sólido blanco*/
 }
 
 .section7 .square-button {
-
-    display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
-    position: relative; /* Para permitir el posicionamiento de los elementos internos */
-    width: 12vw; /* Ancho del botón */
-    height: 25vh; /* Altura del botón */
-    border: 1px solid white;
-border-radius: 10%; /* Borde sólido blanco*/
-    overflow: hidden; /* Para ocultar cualquier contenido que desborde */
+  display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
+  position: relative; /* Para permitir el posicionamiento de los elementos internos */
+  width: 12vw; /* Ancho del botón */
+  height: 25vh; /* Altura del botón */
+  border: 1px solid white;
+  border-radius: 10%; /* Borde sólido blanco*/
+  overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
 .section7 .button-image {
-    width: auto; /* Ancho deseado */
-    height: 70%; /* Altura automática para mantener la relación de aspecto */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
-    display: flex; /* Utiliza flexbox para alinear verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+  width: auto; /* Ancho deseado */
+  height: 70%; /* Altura automática para mantener la relación de aspecto */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  overflow: hidden; /* Oculta cualquier contenido que desborde del contenedor */
+  display: flex; /* Utiliza flexbox para alinear verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
 }
 
 .section7 .button-text {
-    position: absolute; /* Posición absoluta para superponer el texto */
-    bottom: 0; /* Alinear el texto en la parte inferior */
-    width: 100%; /* Ancho al 100% del contenedor */
-    height: 30%; /* Altura del 30% para el texto */
-    background-color: rgb(46,52,25); /* Fondo naranja */
-    color: white; /* Texto blanco */
-    text-align: center; /* Centrar el texto horizontalmente */
-    padding: 10px; /* Ajusta el relleno según sea necesario */
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    font-size: 0.8em ;
+  position: absolute; /* Posición absoluta para superponer el texto */
+  bottom: 0; /* Alinear el texto en la parte inferior */
+  width: 100%; /* Ancho al 100% del contenedor */
+  height: 30%; /* Altura del 30% para el texto */
+  background-color: rgb(46, 52, 25); /* Fondo naranja */
+  color: white; /* Texto blanco */
+  text-align: center; /* Centrar el texto horizontalmente */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+  font-size: 0.8em;
 }
 
 .section7 .button-text .bold {
-    font-size: 10vh;
+  font-size: 10vh;
 }
 
 .section7 .buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
-    gap: 1em; /* Espacio entre los botones */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
+  gap: 1em; /* Espacio entre los botones */
 }
 
 .section7 .space {
-    height: 25vh; /* Espacio entre los botones */
+  height: 25vh; /* Espacio entre los botones */
 }
 
 /* sección 8 */
@@ -749,7 +725,7 @@ border-radius: 10%; /* Borde sólido blanco*/
 
 .section8 .man-image {
   position: absolute;
-  
+
   margin-left: 8em;
   margin-bottom: 1em;
   bottom: 0;
@@ -776,7 +752,7 @@ border-radius: 10%; /* Borde sólido blanco*/
   position: absolute;
   top: 25vh;
   right: 8vw;
- 
+
   color: white; /* Color del texto */
   font-size: 10vh; /* Tamaño del texto */
 }
@@ -790,44 +766,38 @@ border-radius: 10%; /* Borde sólido blanco*/
   height: auto; /* Autoajuste de la altura */
 }
 
-
 /* sección 9 */
 
 .section9 {
-
   display: flex;
   padding-left: 5vw;
   flex-direction: column;
   justify-content: center;
-  background-image: url('assets/Slide 9/fondo.png');
+  background-image: url("assets/Slide 9/fondo.png");
   background-size: cover; /* La imagen de fondo cubre toda la sección */
   background-position: center; /* La imagen de fondo está centrada */
   align-items: flex-start; /* Alinea los elementos a la izquierda */
-
 }
 .section9 .text-top-left {
-
   position: absolute;
   top: 7vh;
   left: 5vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
   font-size: 10vh; /* Tamaño del texto */
-
 }
 
 .section9 .text-top-left .bold {
-font-size: 10vh; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section9 .square-button {
-
   display: inline-block; /* Para que el contenedor ocupe solo el espacio necesario */
   position: relative; /* Para permitir el posicionamiento de los elementos internos */
   width: 11vw; /* Ancho del botón */
   height: 24vh; /* Altura del botón */
   border: 1px solid white;
-border-radius: 10%; /* Borde sólido blanco*/
+  border-radius: 10%; /* Borde sólido blanco*/
   overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -853,7 +823,6 @@ border-radius: 10%; /* Borde sólido blanco*/
   color: white; /* Texto blanco */
   text-align: center; /* Centrar el texto horizontalmente */
   padding: auto; /* Ajusta el relleno según sea necesario */
-  
   flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si no caben todos */
   box-sizing: border-box; /* Incluye el relleno en el tamaño total */
   font-size: 0.8em;
@@ -878,30 +847,26 @@ border-radius: 10%; /* Borde sólido blanco*/
 /* sección 10 */
 
 .section10 {
-
   display: flex;
   padding-left: 5vw;
   flex-direction: column;
   justify-content: center;
-  background-image: url('assets/Slide 10/fondo.png');
+  background-image: url("assets/Slide 10/fondo.png");
   background-size: cover; /* La imagen de fondo cubre toda la sección */
   background-position: center; /* La imagen de fondo está centrada */
   align-items: flex-start; /* Alinea los elementos a la izquierda */
-
 }
 .section10 .text-top-left {
-
   position: absolute;
   top: 7vh;
   left: 5vw;
   padding: 20px; /* Ajusta el padding según sea necesario */
   color: white; /* Color del texto */
   font-size: 10vh; /* Tamaño del texto */
-
 }
 
 .section10 .text-top-left .bold {
-font-size: 10vh; /* Tamaño del texto */
+  font-size: 10vh; /* Tamaño del texto */
 }
 
 .section10 .square-button {
@@ -911,7 +876,7 @@ font-size: 10vh; /* Tamaño del texto */
   width: 11vw; /* Ancho del botón */
   height: 24vh; /* Altura del botón */
   border: 1px solid white;
-border-radius: 10%; /* Borde sólido blanco*/
+  border-radius: 10%; /* Borde sólido blanco*/
   overflow: hidden; /* Para ocultar cualquier contenido que desborde */
 }
 
@@ -933,7 +898,7 @@ border-radius: 10%; /* Borde sólido blanco*/
   bottom: 0; /* Alinear el texto en la parte inferior */
   width: 100%; /* Ancho al 100% del contenedor */
   height: 30%; /* Altura del 30% para el texto */
-  background-color: #9D2330; /* Fondo naranja */
+  background-color: #9d2330; /* Fondo naranja */
   color: white; /* Texto blanco */
   text-align: center; /* Centrar el texto horizontalmente */
   padding: 10px; /* Ajusta el relleno según sea necesario */
